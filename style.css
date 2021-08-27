@@ -23,11 +23,6 @@ text-align: left;
 vertical-align: middle;
 font-size: smaller;
 
-.topstyle{
-    
-
-}
-
 }
 #logo{
     border-bottom: black 3px solid;
@@ -52,6 +47,14 @@ font-size: smaller;
     
    
 }
+
+/* display flex */
+
+
+
+.d_flex{
+    display: flex;
+}
  /* i can't do full page line here*/
 .secend-menu td{
     margin: 5px 15px 0px 0px;
@@ -62,7 +65,7 @@ font-size: smaller;
 .big-art{
     width:40%;
     height: 600px;
-    display: inline;
+    padding: 20px;
     float: left;
     text-align: left;
 }
@@ -88,7 +91,7 @@ div a{
     height: 250px;
     float: inline-start;
     display: inline;
-    border:rgba(121, 113, 113, 0.849) solid 0.1px;
+
 }
 
 
@@ -98,7 +101,7 @@ div a{
 
     width: 24%;
     height: 410px ;
-    border:rgba(121, 113, 113, 0.849) solid 0.1px;
+
     float: left;
     text-align: left;
     box-sizing: border-box;
@@ -111,7 +114,7 @@ div a{
     display: inline;
     width: 32%;
     height: 300px ;
-    border:rgba(121, 113, 113, 0.849) solid 0.1px;
+    
     float: left;
     box-sizing: border-box;
     padding: 5px;
@@ -127,7 +130,7 @@ div a{
     float: left;
     padding:5px;
     margin: 5px;
-    border:rgba(121, 113, 113, 0.849) solid 0.1px;
+
 
 
 }
